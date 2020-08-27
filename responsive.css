@@ -150,7 +150,8 @@ footer.footer-menu {
 
 /*  X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
+.banner{
+    margin-top:0px}
 .banner h1 {
     font-size: 28px !important;
     line-height: 34px !important;
