@@ -150,8 +150,7 @@ footer.footer-menu {
 
 /*  X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-.banner{
-    margin-top:0px}
+
 .banner h1 {
     font-size: 28px !important;
     line-height: 34px !important;
@@ -165,23 +164,59 @@ header p {
     padding: 10px!important;
 }
 .banner {
-    margin-top: -100px;
+    margin-top:0px;
     text-align: center;
+}
+.banner a{
+    padding-right: 0px!important;
 }
 .range-item {
     margin-top: 20px;
 }
-.trusted-area {
-    padding-top: 50px;
-    padding-bottom: 50px;
+.trusted-area {    
+    padding-top: 0px;
+    padding-bottom: 35px;
     background-image: url();
     text-align: center;
+}
+.question-section {
+    padding: 25px 0px;
+}
+.large-range {
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.large-range_items.pt-5 {
+    padding-top: 0px;
+}
+.pricing-table {
+    padding: 0px 0px;
+}
+.subcription {
+    padding: 45px 0px;
+}
+footer .ftop {
+    padding: 30px 0px;
+}
+.members {
+    padding: 0px 0px;
+    padding-bottom: 20px;
+}
+.solution {
+    padding: 0px 0px;
+    padding-bottom: 31px;
 }
 .members ul li {
     margin-right: 17px;
 }
 .members a {
     margin-right: 5px;
+}
+.footer-menu h4 {
+    font-size: 24px;
+}
+.social-link h4 {
+    font-size: 24px;
 }
 .social-link ul {
     display: inline-block;
@@ -191,6 +226,7 @@ header p {
     width: 129px;
     line-height: 37px;
 }}
+
 
 
 /* XX-Large devices (larger desktops) */
